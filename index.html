@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio Challenge</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonte do Projeto Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__logo">
+         <img src="./assets/computer-solid.svg" alt="logo computador" height="25px">
+         <h3>Thierry Chatauan</h3>
+      </div>
+
+      <nav class="menu">
+        <ul class="menu__itens">
+          <li><a href="#sobre__mim">Sobre mim</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#formacao">Formacao</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li>thycbs@gmail.com</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+
+<!-- apresentacao perfil -->
+      <div class="description__area">        
+          <div class="description__texts">
+            <h1>Ola, Me chamo Thierry Chatauan e construo paginas web</h1>
+            <h3>
+              Atualmente trabalhando com maquinas CNC e participando do projeto
+              Oracle ONE na Alura.
+            </h3>
+            <ul class="social__media">
+              <li><a href="https://github.com/thierry-chatauan" target="_blank">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/thycbs/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="profile__picture">
+            <img
+              src="./assets/profile.jpeg"
+              alt="foto sobre o autor"
+              width="330px"
+            />
+          </div>        
+      </div>
+
+      <div class="about__area" id="sobre__mim">
+        <h2 class="about__title">Sobre mim</h2>
+        <h3 class="about__text">
+          Trabalhando com maquinas CNC desde os meus 18 anos, aprendi sobre
+          normas tecnicas e tambem a trabalhar respeitando medidas e
+          tolerancias, hoje, busco na tecnologia os beneficios e desafios que a
+          area exige e dispoe, trabalho com afinco a fim de chegar a mesma
+          senioridade que possuo em minha atual posicao
+        </h3>
+      </div>
+
+      <!-- skills -->
+      <div class="skills__area" id="skills">
+        <h2 class="skills__title">Skills</h2>
+         <div class="skills__box">
+          <div class="skills__box__skill">
+            <ul >
+              <li class="skills__img"><img src="assets\htlm.png" /></li>
+              <li class="skills__name">Html 5</li>
+            </ul>
+          </div>
+          <div class="skills__box__skill">
+            <ul>
+              <li class="skills__img"><img src="assets\css_icon.png" /></li>
+              <li class="skills__name">css 3</li>
+            </ul>
+          </div>
+          <div class="skills__box__skill">
+            <ul>
+              <li class="skills__img"><img src="assets\js_icon.png" /></li>
+              <li class="skills__name">javascript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobbies__area" id="hobbies">
+        <h2 class="hobbies__title">Hobbies</h2>
+        <div class="hobbies__box">
+        <div class="hobbies__box__hobbies">
+          <ul>
+            <li class="skills__img"><img src="assets\guitar-solid.svg" width="48px"/></li>
+            <li class="skills__name">Tocar guitarra</li>
+          </ul>
+        </div>
+        <div class="hobbies__box__hobbies">
+          <ul>
+            <li class="skills__img"><img src="assets\joystick.png" /></li>
+            <li class="skills__name">Games</li>
+          </ul>
+        </div>
+        <div class="hobbies__box__hobbies">
+          <ul>
+            <li class="skills__img"><img src="assets\book.png" /></li>
+            <li class="skills__name">Leitura</li>
+          </ul>
+        </div>
+        <div class="hobbies__box__hobbies">
+          <ul>
+            <li class="skills__img"><img src="assets\motorcycle.png" /></li>
+            <li class="skills__name">Andar de Moto</li>
+          </ul>
+        </div>
+      </div>
+      </div> 
+
+      <div class="formacao__area" id="formacao">
+          <h2 class="formacao__title">Formacao</h2>
+          <img src="./assets/alura_logo.png" alt="alura logo">
+          <h3>Alura - 2024</h3>
+      </div>
+
+      <div class="experience__area" id="projetos">
+        <h2 class="experience__title">Projetos Pessoais</h2>
+         <div class="experience__content">
+           <div class="experience__texts">
+            <h3 class="experience__subtitle">Jogo do numero secreto</h3>
+            <p class="experience__paragraph">Exercicio propsto pela Alura, para entendimento de conceitos de logica de programacao e aplicacao em javascript</p>
+            <div class="experience__btn">
+             <button><a href="https://github.com/thierry-chatauan/jogo-do-numero-secreto" target="_blank">Codigo</a></button>
+             <button><a href="https://jogo-do-numero-secreto-d5m6.vercel.app/" target="_blank">Deploy</a></button>
+            </div>
+          </div>
+         <div class="experience__img">
+          <img src="./assets/jogo_numero_secreto.png" alt="foto de jogo" height="350px">
+         </div>
+      </div>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Desenvolvido por THIERRY CHATAUAN</h2>
+    </footer>
+  </body>
+</html>

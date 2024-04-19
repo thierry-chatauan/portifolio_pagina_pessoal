@@ -1,0 +1,206 @@
+:root{
+    --primary:#5086c1;
+    --secondary: #6a9eda;
+    --third: #84b6f4;
+    --fourth: #b2dafa;
+    --fifth: #dcffff;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  /* background-color: black;
+  color: wheat; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--primary);
+}
+.header__logo{
+    display: flex;
+    gap: 10px;
+}
+
+.menu__itens{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* descricao */
+
+.description__area{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 15px;
+}
+
+.description__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    width: 50%;
+}
+
+.social__media{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 40px;
+    
+}
+
+.social__media li{
+transition: transform 0.3s ease;
+}
+.social__media li:hover{
+    transform: scale(1.1);
+}
+
+.profile__picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile__picture img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.about__area{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary);
+    
+}
+.about__title{
+    padding-top: 25px;
+    margin-bottom: 65px;
+    font-size: 40px;
+}
+
+.about__text{
+    width: 60%;
+    margin: auto;
+}
+
+/* SKILLs  */
+
+.skills__area, .hobbies__area{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title, .hobbies__title{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+.skills__box, .hobbies__box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.skills__box__skill, .hoobies__box__hobbies{
+    height: 100px;
+    width: 156px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.skills__box__skill{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.hobbies__area{
+    background-color: var(--primary);
+}
+
+.formacao__area{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.formacao__title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.formacao__area img{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.experience__area{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.experience__title{
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.experience__content{
+    display: flex;
+    gap: 25px;
+}
+.experience__texts{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.experience__area button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.experience__area button:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* footer */
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+
+}
